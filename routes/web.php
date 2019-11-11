@@ -17,4 +17,4 @@ $router->get('/', function () use ($router) {
 $router->get('/todo','DataController@index');
 $router->get('/todo/{id}','DataController@show');
 $router->get('/todo/{id}/update','DataController@update');
-$router->get('/tambahkolam','DataController@store');
+$router->patch('/tambahkolam','DataController@store');
